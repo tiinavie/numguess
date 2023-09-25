@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Alert, Button, StyleSheet, Text, TextInput, View, FlatList } from 'react-native';
+import { Alert, Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function App(props) {
   const [number, setNumber] = useState();
