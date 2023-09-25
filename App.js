@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Alert, Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
-export default function App(props) {
+export default function App() {
   const [number, setNumber] = useState();
   const [guess, setGuess] = useState('');
   const [result, setResult] = useState('');
